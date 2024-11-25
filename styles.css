@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #007acc;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  button {
+    background: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #005999;
+  }
+  
+  .resume-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .resume-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .resume-section {
+    margin-bottom: 20px;
+  }
+  
+  .resume-section h3 {
+    color: #007acc;
+  }
+  
+  .editable {
+    border: 1px dashed #007acc;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: text;
+  }
+  
+  .editable:focus {
+    outline: none;
+    background-color: #eef7ff;
+  }
+  
